@@ -11,11 +11,11 @@ app.get('/run1', function (req, res) {
 });
 
 app.get('/run2', function (req, res) {
-  res.send('cloud run - Hello World 1\n');
+  res.send('cloud run - Hello World 2\n');
 });
 
 app.get('/run3', function (req, res) {
-  res.send('cloud run - Hello World 1\n');
+  res.send('cloud run - Hello World 3\n');
 });
 
 app.listen(PORT)
