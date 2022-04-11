@@ -15,7 +15,7 @@ app.get('/run2', function (req, res) {
 });
 
 app.get('/run3', function (req, res) {
-  res.send('cloud run - Hello World  - run2 \n');
+  res.send('cloud run - Hello World  - run3 \n');
 });
 
 app.listen(PORT)
